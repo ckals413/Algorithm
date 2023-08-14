@@ -7,8 +7,7 @@ typedef struct {
 } pair;
 
 int n;
-pair dq[100000]; // Assuming n will not exceed 100000
-
+pair dq[100000];
 int main() {
     int i;
     scanf("%d", &n);
