@@ -16,9 +16,9 @@ public class Main {
         
         Arrays.sort(arr);
         for(int i = arr.length-1; i>=0; i--) {
-        	System.out.print(arr[i]);
+        	bw.write(String.valueOf(arr[i]));
         }
-        
+        bw.flush();
        
     }
 }
